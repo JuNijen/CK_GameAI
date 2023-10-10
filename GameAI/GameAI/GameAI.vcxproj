@@ -128,13 +128,22 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="GameAI.cpp" />
-    <ClCompile Include="Observer.cpp" />
-    <ClCompile Include="StrategeDesignedCameraman.cpp" />
+    <ClCompile Include="Miner.cpp" />
+    <ClCompile Include="WestWorldProject.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="FactoryMethod.h" />
+    <ClInclude Include="FSM.h" />
+    <ClInclude Include="FSM2.h" />
     <ClInclude Include="GameAI.h" />
+    <ClInclude Include="Miner.h" />
+    <ClInclude Include="MinerState.h" />
     <ClInclude Include="Observer.h" />
+    <ClInclude Include="PrototypeDesign.h" />
+    <ClInclude Include="SimpleFactory.h" />
     <ClInclude Include="StrategeDesignedCameraman.h" />
+    <ClInclude Include="TemplateMethod.h" />
+    <ClInclude Include="WestWorldProject.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
